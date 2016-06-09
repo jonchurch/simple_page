@@ -1,0 +1,11 @@
+{
+  "name": "simple_page",
+  "version": "0.0.0",
+  "description": "Gainesville Dev Academy Week 1 Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Church",
+  "license": "ISC"
+}
