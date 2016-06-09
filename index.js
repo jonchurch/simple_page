@@ -2,7 +2,7 @@ var express = require('express');
 var server = express();
 
 server.get('/', function(request, response){
-	response.send('peanut butter');
+	response.sendFile('html/index.html', {root: __dirname + '/public/'});
 });
 
 
