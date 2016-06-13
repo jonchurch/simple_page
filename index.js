@@ -16,6 +16,9 @@ server.get('/contact', function(request, response){
 	response.sendFile('html/contact.html', {root: __dirname + '/public/'});
 });
 
+server.post('/contact', function(request, response){
+	response.send("hello");
+});
 
 
 server.listen(8080);
